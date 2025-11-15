@@ -41,12 +41,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Packaging
-*.egg-info/
-.eggs/
-build/
-develop-eggs/
-dist/
 
 # Python dotenv
 backend/.env
@@ -60,31 +54,9 @@ backend/.env.*
 .DS_Store
 Thumbs.db
 
-# VS Code
-.vscode/
-*.code-workspace
-
-# JetBrains / PyCharm
-.idea/
-
-# ============================
-# OAUTH / CREDENTIAL FILES
-# ============================
-
-# Google OAuth secrets
-client_secret*.json
-token.json
 
 # Any file containing OAuth secrets
 OAuth client created.txt
-
-# ============================
-# DATABASE FILES
-# ============================
-
-*.db
-*.sqlite
-*.sqlite3
 
 # ============================
 # OTHER
