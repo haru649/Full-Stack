@@ -1,0 +1,99 @@
+# ============================
+# FRONTEND (React)
+# ============================
+
+# Node modules
+node_modules/
+
+# Build outputs
+build/
+dist/
+.cache/
+
+# React environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================
+# BACKEND (Python)
+# ============================
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Packaging
+*.egg-info/
+.eggs/
+build/
+develop-eggs/
+dist/
+
+# Python dotenv
+backend/.env
+backend/.env.*
+
+# ============================
+# SYSTEM / EDITOR FILES
+# ============================
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains / PyCharm
+.idea/
+
+# ============================
+# OAUTH / CREDENTIAL FILES
+# ============================
+
+# Google OAuth secrets
+client_secret*.json
+token.json
+
+# Any file containing OAuth secrets
+OAuth client created.txt
+
+# ============================
+# DATABASE FILES
+# ============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================
+# OTHER
+# ============================
+
+# Log files
+*.log
+
+# Keys & Certificates
+*.pem
+*.key
+
