@@ -1,0 +1,13 @@
+OAuth client created
+The client ID can always be accessed from Clients tab under Google Auth Platform.
+
+OAuth access is restricted to the test users  listed on your OAuth consent screen
+Client ID
+11461562412-41kdnb0egg9aoijti84esc9ebh1tnmf7.apps.googleusercontent.com
+Starting in June 2025, you will no longer be able to view or download the client secret once you close this dialog. Make sure you have copied or downloaded the information below and securely stored it.
+Client secret
+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
+Creation date
+November 15, 2025, 12:04:49 PM GMT+5
+Status
+ Enabled
