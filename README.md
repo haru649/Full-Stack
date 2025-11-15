@@ -34,39 +34,46 @@ It fetches external cart data, stores it in Supabase, performs analytics, and pr
    - Product Management page for CRUD operations
 
 ## Tech Stack
-- Frontend: ReactJS  
-- Backend: Flask  
-- Database: Supabase  
-- Authentication: JWT + Google OAuth  
+- **Frontend:** ReactJS  
+- **Backend:** Flask  
+- **Database:** Supabase  
+- **Authentication:** JWT + Google OAuth  
 
 ## Setup Instructions
 
-1. **Clone the repository**
-
+**Clone the repository and install dependencies:**  
+```bash
 git clone https://github.com/haru649/Full-Stack.git
 cd Full-Stack
 
-2. Backend Setup
-
+# Backend setup
 cd backend
 pip install -r requirements.txt
-Create a .env file with the following variables:
+
+# Frontend setup
+cd ../frontend
+npm install
+
+Environment Variables:
+Create a .env file in the backend folder with:
+
 DATABASE_URL=your_database_url_here
 JWT_SECRET_KEY=your_jwt_secret_here
 GOOGLE_CLIENT_ID=your_google_client_id_here
 
-Run the backend:
-python app.py
 
-3. Frontend Setup
+Create a .env file in the frontend folder with:
 
-cd ../frontend
-npm install
-
-Create a .env file in the frontend directory with:
 REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id_here
 REACT_APP_API_URL=http://localhost:5000
 
-Start the frontend:
-npm start
 
+Run the application:
+
+# Backend
+cd backend
+python app.py
+
+# Frontend
+cd ../frontend
+npm start
